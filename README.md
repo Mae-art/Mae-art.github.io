@@ -1,2 +1,2 @@
-# Mae_art.github.io
+# Mae-art.github.io
 Mon premier projet
