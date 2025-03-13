@@ -1,0 +1,85 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF6E0;
+  color: #241F02;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #5DB3CD;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+h1 { color: #E2C170;
+-webkit-text-stroke: 1px #1F283E;}
+
+h2, h3 {
+  color: #1F283E;
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+a {
+  color: #241F02;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  background-color: #FFF6E0;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  object-fit: cover;
+  margin-bottom: 10px;
+ 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+  
+  border: 1px #2F416F;
+}
